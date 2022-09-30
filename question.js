@@ -17,12 +17,6 @@ class Questions {
     this.allQuestion = this.data.length
     this.question = this.data[this.playing]
     this.showData()
-    // if (this.playing == this.data.length) {
-    //   console.log("จบโปรแกรม")
-    // }else{
-    //   this.showData()
-    // }
-    //if (this.playing == this.data.length) break;  // ไม่หยุด
   }
 
   setUpClickEvent() {
